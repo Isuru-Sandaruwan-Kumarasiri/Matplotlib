@@ -21,8 +21,8 @@ plt.subplot(1,2,2)
 subjects=['maths','physics','chemistry']
 marks=[70,80,55]
 
-plt.barh(subjects,marks)
-# plt.bar(subjects,marks,width=0.4)
+plt.barh(subjects,marks)# horizontal
+# plt.bar(subjects,marks,width=0.4) # vertical
 plt.title("Student Marks")
 plt.xlabel("Subject")
 plt.ylabel("Marks")
