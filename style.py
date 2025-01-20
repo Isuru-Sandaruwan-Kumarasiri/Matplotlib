@@ -22,20 +22,41 @@ import numpy as np
     white       w
 
 
-    character   line style
+    Marker	Description
 
-    "."         point marker
-    ","         pixel marker
-    "o"         circle marker
-    "v"         triangle_down marker
-    "^"         triangle_up marker
-    "<"         triangle_left marker
-    ">"         triangle_right marker
-    "1"         tri_down marker
-    'x'         x marker
-    'H'         hexagon1 marker
-    'h'         hexagon2 marker
-    'D'         diamond marker
+    .	Point
+    ,	Pixel
+    o	Circle
+    v	Triangle Down
+    ^	Triangle Up
+    <	Triangle Left
+    >	Triangle Right
+    1	Tri-down (Tripod Down)
+    2	Tri-up (Tripod Up)
+    3	Tri-left (Tripod Left)
+    4	Tri-right (Tripod Right)
+    s	Square
+    p	Pentagon
+    *	Star
+    h	Hexagon1
+    H	Hexagon2
+    +	Plus
+    x	X
+    D	Diamond
+    d	Thin Diamond
+    `	`
+    _	Horizontal Line
+    
+    Line Style Code	   Description
+    
+    '-'	               Solid Line
+    '--'	           Dashed Line
+    '-.'	           Dash-Dot Line
+    ':'	               Dotted Line
+    ''                 (empty)	No Line
+
+
+
 
 '''
 x=[1, 2, 3, 4]
