@@ -1,0 +1,1 @@
+plt.barh(subjects,marks)
